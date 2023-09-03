@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Staatliches&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <header>
+    <br>
+    <br>
+    <br>
+    <h1>AVALIE A SUA MENTORIA</h1>
+    <p>Chegou a hora de avaliar o seu mentor. Bora la?</p>
+    <img src="images/img1.svg" alt="imagem de estrelas para pontuacao">
+   <div class="box">INFORMACOES PESSOAIS</div>
+</header>
+
+
+<div class="formulario">
+
+    <fieldset>
+        <br>
+        <br>
+        <label for="primeiro">Nome</label>
+
+        <input type="text" name="nome" id="primeiro" style="display: inline; border: 0.5px solid #7d7c81; margin-right: 26px;">
+
+        <label for="segundo">Sobrenome</label>
+        <input type="text" name="nomedois" id="segundo" style="display: inline; border: 0.5px solid #7d7c81">
+<br>
+<br>
+<br>
+        <label for="emaill">Email <span>(digite um email valido)</span></label>
+        <input type="email" name="contato" id="emaill" style="display: inline; width: 410px; border: 0.5px solid #7d7c81">
+<br>
+<br>
+<br>
+    <p>INFORMACOES DO MENTOR</p>
+    <hr style="border: 0.5px solid #7d7c81;">
+<br>
+<br>
+    <label for="mentor">Selecione quem foi o seu mentor</label>
+    <select name="opcoes" id="mentor" style="display: inline; border: 0.5px solid #7d7c81">
+        <option value="um">Maria</option>
+        <option value="dois">Joao</option>
+    </select>
+<br>
+<br>
+<br>
+    <label for="texto">Feedback sobre o mentor</label>
+    <input type="text" name="para" id="texto" style="display: inline; width: 450px; height: 200px; border: 0.5px solid #7d7c81">
+ 
+   <br>
+   <br>
+   <div class="checkbox-wrapper">
+    <input type="checkbox" id="event-private" />
+    <label for="event-private">Todas as minhas duvidas foram esclarecidas durante a mentoria.</label>
+  </div>
+<br>
+<br>
+   <p>AGENDADO PROXIMA MENTORIA</p>
+   <hr style="border: 0.5px solid #7d7c81;">
+   <br>
+   <br>
+
+   <label for="dia">Data <span></span></label>
+<input type="date" name="" id="dia" style="display: inline;border: 0.5px solid #7d7c81; margin-right: 92px;">
+
+<label for="start">Das</label>
+<input type="time" name="" id="start" style="display: inline;border: 0.5px solid #7d7c81">
+<br>
+<br>
+<label for="end">Ate</label>
+<input type="time" name="" id="end" style="display: inline;border: 0.5px solid #7d7c81">
+
+<button type="submit">SALVAR</button>
+
+
+
+</fieldset>
+
+   
+
+</div>
+</div>
+</body>
+</html>
